@@ -12,7 +12,7 @@ namespace AdventOfCodeTests
 {
     public class Class1
     {
-        [Theory]
+        [Theory(Skip = "old")]
         [InlineData("L2", -2, 0, 270)]
         [InlineData("R2", 2, 0, 90)]
         public void MoveWorksCorrectly(string move, int x, int y, int facing)
@@ -25,7 +25,7 @@ namespace AdventOfCodeTests
             Assert.Equal(travis.Y, y);
         }
 
-        [Theory]
+        [Theory(Skip = "old")]
         [InlineData("L2", "L2", -2, -2, 180)]
         [InlineData("R2", "R2", 2, -2, 180)]
         [InlineData("R5", "L2", 5, 2, 0)]
@@ -42,7 +42,7 @@ namespace AdventOfCodeTests
             Assert.Equal(travis.Y, y);
         }
 
-        [Theory]
+        [Theory(Skip = "old")]
         [InlineData("L1", "L1", "L1", "L1", 0, 0)]
         public void GoInCircleConfirmSamePlaceTwice(string move1, string move2, string move3, string move4, int x, int y)
         {
