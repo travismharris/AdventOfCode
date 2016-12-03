@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Day2Tests.cs" />
+    <Compile Include="Day3Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +75,10 @@
     <ProjectReference Include="..\Day2\Day2.csproj">
       <Project>{1af3264c-ce57-4cfe-ba59-56997e20f9ff}</Project>
       <Name>Day2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Day3\Day3.csproj">
+      <Project>{b09b04d6-2526-4bcb-8252-9b459c588f80}</Project>
+      <Name>Day3</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
