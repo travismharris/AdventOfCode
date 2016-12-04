@@ -9,7 +9,8 @@ using Day2;
 
 namespace AdventOfCodeTests
 {
-    public class Day2Tests
+    //removed public from class declaration to prevent running tests for old problems
+    class Day2Tests
     {
         [Theory]
         [InlineData(1, 1)]

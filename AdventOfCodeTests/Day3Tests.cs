@@ -9,7 +9,8 @@ using Xunit;
 
 namespace AdventOfCodeTests
 {
-    public class Day3Tests
+    //removed public from class declaration to prevent running tests for old problems
+    class Day3Tests
     {
         [Theory]
         [InlineData(5, 10, 25, false)]

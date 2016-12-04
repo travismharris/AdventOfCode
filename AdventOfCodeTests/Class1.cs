@@ -10,7 +10,8 @@ using Xunit;
 
 namespace AdventOfCodeTests
 {
-    public class Class1
+    //removed public from class declaration to prevent running tests for old problems
+    class Class1
     {
         [Theory(Skip = "old")]
         [InlineData("L2", -2, 0, 270)]
