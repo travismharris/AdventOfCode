@@ -9,7 +9,7 @@ using Xunit;
 
 namespace AdventOfCodeTests
 {
-    public class Day4Tests
+    class Day4Tests
     {
         [Theory]
         [InlineData("aaaaa-bbb-z-y-x-123[abxyz]", "aaaaabbbzyx")]
